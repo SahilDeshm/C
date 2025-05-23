@@ -2,7 +2,7 @@ import prisma from "../utils/db.js";
 
 export const handleIdentify = async (req, res) => {
   try {
-    console.log('Request Body:', req);
+ 
     console.log('Request Body:', req.body);
     const { email, phoneNumber } = req.body;
 
